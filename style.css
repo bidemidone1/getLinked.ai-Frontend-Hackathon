@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.desktop-view img {
+
+    width: 100%;
+    height: 100%;
+    /* display: none; */
+}
+
+.mobile-view img {
+
+    width: 100%;
+    height: 100%;
+    /* display: none; */
+}
+
+.mumble {
+    display: none;
+}
+
+
+@media screen and (max-width: 800px) {
+.desktop-view img {
+    /* width: 100%; */
+    /* height: 100%; */
+    display: none;
+}
+}
+
+@media screen and (min-width: 800px) {
+.mobile-view img {
+    /* margin: 0 auto; */
+    /* width: 100%; */
+    /* height: 100%; */
+    display: none;
+}
+}
